@@ -64,3 +64,110 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Your code starts here! */
+
+
+  /* nav a{
+	  display: inline-block;
+	  margin: 2%;
+	  border: 1px solid red; 
+	  
+  }
+/* 
+  .navigation {
+	  display: inline;
+	  width: 100%;
+
+  } */
+
+  /* .navigation div{
+	  width: 20%;
+  } */
+
+/* .double-column .container{
+	width:40%;
+} */
+
+/* .container{
+	width: 40%;
+}
+.double-column{
+	display: inline-block;
+	
+	margin: 20px;
+} */ 
+
+body{
+	width:1000px;
+	border: 1px solid purple;
+}
+
+.navigation{
+	padding: 50px;
+}
+
+nav a{
+	color:grey;
+	display: inline;
+	width: 50%;
+	border: 1px solid red; 
+	padding: 30px;
+}
+section{
+	border: 1px solid red;
+}
+.side{
+  width: 100%;
+  display:inline-block;
+  border: solid 2px yellow;
+}
+.container{
+  border: 2px solid navy;
+  margin: 6px;
+  padding: 5px;
+  width: 48%;
+  display: inline-block;
+}
+.container-box{
+	border: 2px solid navy;
+	margin: 5px;
+	padding: 5px;
+	width: 32%;
+	display: inline-block;
+	
+}
+h1{
+	display:inline-block;
+	width:20%;
+	height:100px;
+	font-size:50px;
+	text-align: center; 
+	word-spacing:100vw;
+	margin-top: 15%;
+}
+h8{
+	border: 1px black solid;
+	padding: 0px 25px;
+	font-size: 10px;
+}
+.side{
+
+}
+.logo{
+	position: absolute;
+	right:300px;
+	margin-bottom:20px;
+}
+
+.round-image{
+	position: relative;
+	left: 60%;
+}
+
+button{
+	position: relative;
+	top: 50%;
+}
+
+.middle-img{
+	width:100%;
+}
