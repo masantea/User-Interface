@@ -98,7 +98,8 @@ h1, h2, h3, h4, h5 {
 
 body{
 	width:1000px;
-	border: 1px solid purple;
+	margin: 0 auto;
+	
 }
 
 .navigation{
@@ -106,29 +107,37 @@ body{
 }
 
 nav a{
-	color:grey;
 	display: inline;
 	width: 50%;
-	border: 1px solid red; 
-	padding: 30px;
+	padding-left: 40px;
+    color: grey;
+    text-decoration-line: none;
 }
-section{
-	border: 1px solid red;
-}
+
 .side{
   width: 100%;
   display:inline-block;
-  border: solid 2px yellow;
 }
+
+.double-column{
+	padding-top:18px;
+	margin-bottom:18px;
+	border-top: 2px solid gray;
+}
+
+.tripple-column{
+	padding-bottom:18px;
+	margin-top:18px;
+	border-bottom: 2px solid gray;
+}
+
 .container{
-  border: 2px solid navy;
   margin: 6px;
   padding: 5px;
   width: 48%;
   display: inline-block;
 }
 .container-box{
-	border: 2px solid navy;
 	margin: 5px;
 	padding: 5px;
 	width: 32%;
@@ -170,4 +179,12 @@ button{
 
 .middle-img{
 	width:100%;
+}
+
+.address{
+	margin-top:15px;
+}
+
+.copyright{
+	text-align: center;
 }
