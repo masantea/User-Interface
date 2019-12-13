@@ -158,7 +158,14 @@ h8{
 	padding: 0px 25px;
 	font-size: 10px;
 }
-.side{
+.side h1{
+	display: inline-block;
+	width:50%;
+	font-size: 40px;
+	text-align: center;
+	position: relative;
+	left: 1%;
+	top: 80px;
 
 }
 .logo{
@@ -168,13 +175,19 @@ h8{
 }
 
 .round-image{
+	display: inline-block;
 	position: relative;
-	left: 60%;
+	left: 50%;
+	bottom: 100px;
 }
 
 button{
+	border: 1px solid black;
+	text-align: center;
 	position: relative;
-	top: 50%;
+	top: 150px;
+	right: 300px;
+	
 }
 
 .middle-img{
